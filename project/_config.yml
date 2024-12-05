@@ -1,0 +1,5 @@
+theme: minima
+title: Hybrid AES-DES Encryption
+description: A secure encryption project with AES, DES, and chaotic key sharing.
+baseurl: "/HYBRID-AES-DES-ENCRYPTION" # Repository name
+url: "https://01fe21bcs108.github.io"
