@@ -38,7 +38,6 @@ cd HYBRID-AES-DES-ENCRYPTION
 
 # Open the project folder in VS Code or any preferred development tool
 
-
 # Install Vite
 npm install vite
 
