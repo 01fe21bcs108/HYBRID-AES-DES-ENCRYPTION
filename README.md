@@ -1,45 +1,50 @@
-# Hybrid AES-DES Encryption with Chaotic Key Sharing  
+# Hybrid AES-DES Encryption with Chaotic Key Sharing
 
-A secure web application implementing two-layer encryption using **AES** and **DES** algorithms, combined with a chaotic map-based shared key generation system for secure decryption.  
+## Overview
+This project implements a **Hybrid AES-DES Encryption** system that provides **two-layer encryption** using AES and DES algorithms, combined with a chaotic map-based shared key generation system. The encrypted file is stored in binary format, while encrypted content is displayed in Base64 format for easy readability.
 
-## Features  
-- **Two-Layer Encryption**:  
-  - Files are encrypted sequentially using AES and DES for enhanced security.  
-  - Encrypted files are stored in binary format on the system.  
+## Key Features
+- **Two-layer encryption** using AES and DES algorithms for enhanced security.
+- **Chaotic key sharing** utilizing initial seed, R parameter, and iterations for generating a shared key.
+- **Encrypted files in binary format**; Base64 format used for displaying encrypted content.
+- **Seamless decryption process** for securely retrieving original data.
 
-- **Chaotic Key Sharing**:  
-  - A shared key is generated using a chaotic map based on:  
-    - **Initial seed**, **R parameter**, and **Iterations**.  
-  - Ensures secure decryption on the receiver's end.  
+## Technologies Used
+- **Programming Languages**: TypeScript, JavaScript, HTML, CSS.
+- **Styling Framework**: Tailwind CSS.
+- **Cryptography Algorithms**: AES, DES, Chaotic Maps.
 
-- **Readable Encrypted Content**:  
-  - Encrypted content can be viewed in **Base64 format** for convenience.  
+## Setup Instructions
 
-- **Two-Step Decryption**:  
-  - The receiver uses the chaotic shared key to decrypt the file by reversing DES and AES encryption sequentially.  
-
-## Application Flow  
-1. **Sender** uploads a file and encrypts it using AES and DES keys.  
-2. A **chaotic shared key** is generated for decryption.  
-3. **Receiver** decrypts the file using the shared key, restoring the original content.  
-
-## Technologies Used  
-- **Frontend**: TypeScript, JavaScript, HTML, CSS, Tailwind CSS  
-- **Encryption Algorithms**: AES, DES  
-- **Key Generation**: Chaotic map (based on dynamic parameters)  
-
-## Setup Instructions  
 ```bash
-# Clone the repository to your local machine
+# Clone the repository
 git clone https://github.com/01fe21bcs108/HYBRID-AES-DES-ENCRYPTION.git
 
-# Navigate to the project folder
+# Navigate to the project directory
 cd HYBRID-AES-DES-ENCRYPTION
 
-# Open the project folder in VS Code or any preferred development tool
+# Open the project in VS Code or your preferred IDE
+code .
 
 # Install Vite
 npm install vite
 
-# Start the development server
+# Run the development server
 npm run dev
+```
+
+## Screenshots
+Add screenshots of the encryption and decryption interfaces, workflows, or any other relevant visual demonstrations here. Example:
+
+- **Encryption Page**
+  ![Encryption Screenshot](path/to/encryption-screenshot.png)
+
+- **Decryption Page**
+  ![Decryption Screenshot](path/to/decryption-screenshot.png)
+
+## Contact
+Created by **Amanulla Kesaratti**  
+- **Email**: [aman.at.job.02@gmail.com](mailto:aman.at.job.02@gmail.com)  
+- **GitHub**: [@01fe21bcs108](https://github.com/01fe21bcs108)
+
+---
