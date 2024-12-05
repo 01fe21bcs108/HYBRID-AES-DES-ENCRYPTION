@@ -37,10 +37,12 @@ npm run dev
 Add screenshots of the encryption and decryption interfaces, workflows, or any other relevant visual demonstrations here. Example:
 
 - **Encryption Page**
-  ![Encryption Screenshot](path/to/encryption-screenshot.png)
+  ![Encryption Screenshot](project/encryption.png)
 
 - **Decryption Page**
-  ![Decryption Screenshot](path/to/decryption-screenshot.png)
+  ![Decryption Screenshot](project/decryption.png)
+  - **Results**
+  ![Decryption Screenshot](project/results.png)
 
 ## Contact
 Created by **Amanulla Kesaratti**  
