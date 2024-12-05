@@ -24,12 +24,24 @@ A secure web application implementing two-layer encryption using **AES** and **D
 3. **Receiver** decrypts the file using the shared key, restoring the original content.  
 
 ## Technologies Used  
-- **Frontend**: HTML, CSS, JavaScript  
+- **Frontend**: TypeScript, JavaScript, HTML, CSS, Tailwind CSS  
 - **Backend**: Python (Flask)  
 - **Encryption Algorithms**: AES, DES  
 - **Key Generation**: Chaotic map (based on dynamic parameters)  
 
-## Usage  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/01fe21bcs108/HYBRID-AES-DES-ENCRYPTION.git
+## Setup Instructions  
+```bash
+# Clone the repository to your local machine
+git clone https://github.com/01fe21bcs108/HYBRID-AES-DES-ENCRYPTION.git
+
+# Navigate to the project folder
+cd HYBRID-AES-DES-ENCRYPTION
+
+# Open the project folder in VS Code or any preferred development tool
+code .
+
+# Install Vite
+npm install vite
+
+# Start the development server
+npm run dev
